@@ -1,0 +1,410 @@
+{
+  "data": {
+    "context": { "status": "incomplete", "sessionId": "ClQIARJQCk4KJGNiNDdjNGNmLTc5ZGMtNGE3ZS05ZDBlLTdhOTBkMTM4YzExZRACGiQwZTJiYzcxZS1lMGQ4LTQzMzMtOTU5NS05ZjUzZTJiNzUzZWQSKHVzc19jYjE2MDgzOS1hODRmLTQ5MDgtYjM1Ni00ZDQzMTA0NWY5YzU=", "totalResults": 10 },
+    "itineraries": [
+      {
+        "id": "10075-2407172250--31435-0-10957-2407180100",
+        "price": { "raw": 3760.42, "formatted": "\u20b9 3,761", "pricingOptionId": "CzeZr_UFLbyO" },
+        "legs": [
+          {
+            "id": "10075-2407172250--31435-0-10957-2407180100",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 130,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T22:50:00",
+            "arrival": "2024-07-18T01:00:00",
+            "timeDeltaInDays": 1,
+            "carriers": { "marketing": [{ "id": -31435, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IK.png", "name": "Vistara" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407172250-2407180100--31435",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T22:50:00",
+                "arrival": "2024-07-18T01:00:00",
+                "durationInMinutes": 130,
+                "flightNumber": "986",
+                "marketingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "tags": ["cheapest", "shortest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.999
+      },
+      {
+        "id": "10075-2407172155--31435-0-10957-2407180010",
+        "price": { "raw": 4111.39, "formatted": "\u20b9 4,112", "pricingOptionId": "rejASi1wcHY0" },
+        "legs": [
+          {
+            "id": "10075-2407172155--31435-0-10957-2407180010",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 135,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T21:55:00",
+            "arrival": "2024-07-18T00:10:00",
+            "timeDeltaInDays": 1,
+            "carriers": { "marketing": [{ "id": -31435, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IK.png", "name": "Vistara" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407172155-2407180010--31435",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T21:55:00",
+                "arrival": "2024-07-18T00:10:00",
+                "durationInMinutes": 135,
+                "flightNumber": "950",
+                "marketingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "tags": ["second_cheapest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.901063
+      },
+      {
+        "id": "10075-2407171725--31435-0-10957-2407171940",
+        "price": { "raw": 4813.33, "formatted": "\u20b9 4,814", "pricingOptionId": "OLknBKJYPW9E" },
+        "legs": [
+          {
+            "id": "10075-2407171725--31435-0-10957-2407171940",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 135,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T17:25:00",
+            "arrival": "2024-07-17T19:40:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -31435, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IK.png", "name": "Vistara" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407171725-2407171940--31435",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T17:25:00",
+                "arrival": "2024-07-17T19:40:00",
+                "durationInMinutes": 135,
+                "flightNumber": "910",
+                "marketingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.821222
+      },
+      {
+        "id": "10075-2407172100--32672-0-10957-2407172315",
+        "price": { "raw": 4387.15, "formatted": "\u20b9 4,388", "pricingOptionId": "shxXn7zOJ7G2" },
+        "legs": [
+          {
+            "id": "10075-2407172100--32672-0-10957-2407172315",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 135,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T21:00:00",
+            "arrival": "2024-07-17T23:15:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -32672, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AI.png", "name": "Air India" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407172100-2407172315--32672",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T21:00:00",
+                "arrival": "2024-07-17T23:15:00",
+                "durationInMinutes": 135,
+                "flightNumber": "816",
+                "marketingCarrier": { "id": -32672, "name": "Air India", "alternateId": "AI", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -32672, "name": "Air India", "alternateId": "AI", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.810439
+      },
+      {
+        "id": "10075-2407171900--32213-0-10957-2407172110",
+        "price": { "raw": 4545.0, "formatted": "\u20b9 4,545", "pricingOptionId": "kOIoXFEOb25n" },
+        "legs": [
+          {
+            "id": "10075-2407171900--32213-0-10957-2407172110",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 130,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T19:00:00",
+            "arrival": "2024-07-17T21:10:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -32213, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png", "name": "IndiGo" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407171900-2407172110--32213",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T19:00:00",
+                "arrival": "2024-07-17T21:10:00",
+                "durationInMinutes": 130,
+                "flightNumber": "6613",
+                "marketingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "tags": ["third_shortest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.800825
+      },
+      {
+        "id": "10075-2407171800--32213-0-10957-2407172010",
+        "price": { "raw": 4641.0, "formatted": "\u20b9 4,641", "pricingOptionId": "0EOj9FmQF6aW" },
+        "legs": [
+          {
+            "id": "10075-2407171800--32213-0-10957-2407172010",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 130,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T18:00:00",
+            "arrival": "2024-07-17T20:10:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -32213, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png", "name": "IndiGo" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407171800-2407172010--32213",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T18:00:00",
+                "arrival": "2024-07-17T20:10:00",
+                "durationInMinutes": 130,
+                "flightNumber": "6082",
+                "marketingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.798571
+      },
+      {
+        "id": "10075-2407171945--31435-0-10957-2407172155",
+        "price": { "raw": 4813.33, "formatted": "\u20b9 4,814", "pricingOptionId": "AdA8jR0rQeAo" },
+        "legs": [
+          {
+            "id": "10075-2407171945--31435-0-10957-2407172155",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 130,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T19:45:00",
+            "arrival": "2024-07-17T21:55:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -31435, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IK.png", "name": "Vistara" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407171945-2407172155--31435",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T19:45:00",
+                "arrival": "2024-07-17T21:55:00",
+                "durationInMinutes": 130,
+                "flightNumber": "940",
+                "marketingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -31435, "name": "Vistara", "alternateId": "IK", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.79856
+      },
+      {
+        "id": "10075-2407171700--32213-0-10957-2407171910",
+        "price": { "raw": 4738.0, "formatted": "\u20b9 4,738", "pricingOptionId": "G2Ez-Q7PcjJ3" },
+        "legs": [
+          {
+            "id": "10075-2407171700--32213-0-10957-2407171910",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 130,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T17:00:00",
+            "arrival": "2024-07-17T19:10:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -32213, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png", "name": "IndiGo" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407171700-2407171910--32213",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T17:00:00",
+                "arrival": "2024-07-17T19:10:00",
+                "durationInMinutes": 130,
+                "flightNumber": "882",
+                "marketingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.788323
+      },
+      {
+        "id": "10075-2407171900--32672-0-10957-2407172115",
+        "price": { "raw": 4830.04, "formatted": "\u20b9 4,831", "pricingOptionId": "vj7GLf-p2uXI" },
+        "legs": [
+          {
+            "id": "10075-2407171900--32672-0-10957-2407172115",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 135,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T19:00:00",
+            "arrival": "2024-07-17T21:15:00",
+            "timeDeltaInDays": 0,
+            "carriers": { "marketing": [{ "id": -32672, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AI.png", "name": "Air India" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407171900-2407172115--32672",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T19:00:00",
+                "arrival": "2024-07-17T21:15:00",
+                "durationInMinutes": 135,
+                "flightNumber": "888",
+                "marketingCarrier": { "id": -32672, "name": "Air India", "alternateId": "AI", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -32672, "name": "Air India", "alternateId": "AI", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.782944
+      },
+      {
+        "id": "10075-2407172215--32213-0-10957-2407180025",
+        "price": { "raw": 4226.0, "formatted": "\u20b9 4,226", "pricingOptionId": "D-WPWWLcJz3p" },
+        "legs": [
+          {
+            "id": "10075-2407172215--32213-0-10957-2407180025",
+            "origin": { "id": "BOM", "entityId": "95673320", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai", "country": "India", "isHighlighted": false },
+            "destination": { "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi", "country": "India", "isHighlighted": false },
+            "durationInMinutes": 130,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-07-17T22:15:00",
+            "arrival": "2024-07-18T00:25:00",
+            "timeDeltaInDays": 1,
+            "carriers": { "marketing": [{ "id": -32213, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png", "name": "IndiGo" }], "operationType": "fully_operated" },
+            "segments": [
+              {
+                "id": "10075-10957-2407172215-2407180025--32213",
+                "origin": { "flightPlaceId": "BOM", "displayCode": "BOM", "parent": { "flightPlaceId": "IBOM", "displayCode": "BOM", "name": "Mumbai", "type": "City" }, "name": "Mumbai", "type": "Airport", "country": "India" },
+                "destination": { "flightPlaceId": "DEL", "displayCode": "DEL", "parent": { "flightPlaceId": "IDEL", "displayCode": "DEL", "name": "New Delhi", "type": "City" }, "name": "Indira Gandhi International ", "type": "Airport", "country": "India" },
+                "departure": "2024-07-17T22:15:00",
+                "arrival": "2024-07-18T00:25:00",
+                "durationInMinutes": 130,
+                "flightNumber": "651",
+                "marketingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" },
+                "operatingCarrier": { "id": -32213, "name": "IndiGo", "alternateId": "49", "allianceId": 0, "displayCode": "" }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": { "isChangeAllowed": false, "isPartiallyChangeable": false, "isCancellationAllowed": false, "isPartiallyRefundable": false },
+        "fareAttributes": {},
+        "tags": ["third_cheapest", "second_shortest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.780413
+      }
+    ],
+    "messages": [],
+    "filterStats": {
+      "duration": { "min": 130, "max": 135, "multiCityMin": 130, "multiCityMax": 135 },
+      "airports": [
+        { "city": "Mumbai", "airports": [{ "id": "BOM", "entityId": "95673320", "name": "Mumbai" }] },
+        { "city": "New Delhi", "airports": [{ "id": "DEL", "entityId": "95673498", "name": "Indira Gandhi International " }] }
+      ],
+      "carriers": [
+        { "id": -32672, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AI.png", "name": "Air India" },
+        { "id": -32213, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png", "name": "IndiGo" },
+        { "id": -31435, "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IK.png", "name": "Vistara" }
+      ],
+      "stopPrices": { "direct": { "isPresent": true, "formattedPrice": "\u20b9 3,761" }, "one": { "isPresent": false }, "twoOrMore": { "isPresent": false } }
+    },
+    "flightsSessionId": "cb47c4cf-79dc-4a7e-9d0e-7a90d138c11e",
+    "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg",
+    "token": "eyJhIjoxLCJjIjowLCJpIjowLCJjYyI6ImVjb25vbXkiLCJvIjoiQk9NIiwiZCI6IkRFTCIsImQxIjoiMjAyNC0wNy0xNyJ9"
+  },
+  "status": true,
+  "message": "Successful"
+}

@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "presentation": {
+        "title": "Mumbai",
+        "suggestionTitle": "Mumbai (BOM)",
+        "subtitle": "India",
+        "id": "eyJlIjoiOTU2NzMzMjAiLCJzIjoiQk9NIiwiaCI6IjI3NTM5NTIwIiwidCI6IkFJUlBPUlQifQ==",
+        "skyId": "BOM"
+      },
+      "navigation": {
+        "entityId": "95673320",
+        "entityType": "AIRPORT",
+        "localizedName": "Mumbai",
+        "relevantFlightParams": {
+          "skyId": "BOM",
+          "entityId": "95673320",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Mumbai"
+        },
+        "relevantHotelParams": {
+          "entityId": "27539520",
+          "entityType": "CITY",
+          "localizedName": "Mumbai"
+        }
+      }
+    },
+    {
+      "presentation": {
+        "title": "Indira Gandhi International ",
+        "suggestionTitle": "Indira Gandhi International  (DEL)",
+        "subtitle": "India",
+        "id": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwiaCI6IjI3NTQwNzA2IiwidCI6IkFJUlBPUlQifQ==",
+        "skyId": "DEL"
+      },
+      "navigation": {
+        "entityId": "95673498",
+        "entityType": "AIRPORT",
+        "localizedName": "Indira Gandhi International ",
+        "relevantFlightParams": {
+          "skyId": "DEL",
+          "entityId": "95673498",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Indira Gandhi International "
+        },
+        "relevantHotelParams": {
+          "entityId": "27540706",
+          "entityType": "CITY",
+          "localizedName": "New Delhi"
+        }
+      }
+    }
+  ],
+  "status": true,
+  "message": "Successful"
+}

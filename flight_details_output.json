@@ -1,0 +1,554 @@
+{
+  "data": {
+    "itinerary": {
+      "id": "10075-2407172250--31435-0-10957-2407180100",
+      "legs": [
+        {
+          "id": "10075-2407172250--31435-0-10957-2407180100",
+          "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+          "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+          "segments": [
+            {
+              "id": "10075-10957-2407172250-2407180100--31435",
+              "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+              "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+              "duration": 130,
+              "dayChange": 1,
+              "flightNumber": "UK986",
+              "departure": "2024-07-17T22:50:00",
+              "arrival": "2024-07-18T01:00:00",
+              "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+              "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+              "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+            }
+          ],
+          "duration": 130,
+          "stopCount": 0,
+          "departure": "2024-07-17T22:50:00",
+          "arrival": "2024-07-18T01:00:00",
+          "dayChange": 1
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agents": [
+            {
+              "id": "oojo",
+              "name": "Oojo",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/oojo/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=3760.42&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mLJz8_KF2LmuO0nxcxxNlShYfKdLWxGTAqMALWdH4IcAAAA|8144615427445225760|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T04:14:07&pqid=true",
+              "price": 3760.42,
+              "rating": { "value": 4.58, "count": 4356 },
+              "updateStatus": "PENDING",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 304.0
+            }
+          ],
+          "totalPrice": 3760.42,
+          "fare": { "leg_details": [] },
+          "id": "CzeZr_UFLbyO"
+        },
+        {
+          "agents": [
+            {
+              "id": "pcln",
+              "name": "Priceline",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/pcln/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|V0GRPRYS|V|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=4972.10&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mIpSM7JE2LmuO0nxcxxNlShYfKdLWxGTAqMAOrSr_McAAAA|-8122219942755228791|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T08:39:23&pqid=false",
+              "price": 4972.1,
+              "rating": { "value": 2.64, "count": 1378 },
+              "updateStatus": "PENDING",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 39.0
+            }
+          ],
+          "totalPrice": 4972.1,
+          "fare": { "leg_details": [] },
+          "id": "XQdiB4SE56vT"
+        },
+        {
+          "agents": [
+            {
+              "id": "bcom",
+              "name": "Booking.com ",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/bcom/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5096.62&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS52JJSs7PFWLmuO0nxcxxNlShYfKdLWxGTAqMVcyefkEAOKL5cSEAAAA|-2468103854861028803|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:41&pqid=true",
+              "price": 5096.62,
+              "rating": { "value": 4.8, "count": 5686 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5096.62,
+          "fare": { "leg_details": [] },
+          "id": "XbAP1ErwBpOJ"
+        },
+        {
+          "agents": [
+            {
+              "id": "chpo",
+              "name": "CheapOair",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/chpo/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5160.96&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mJJzijIF2LmuO0nxcxxNlShYfKdLWxGTAqMADsCSXEcAAAA|-3308499855722259516|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-16T21:54:25&pqid=false",
+              "price": 5160.96,
+              "rating": { "value": 2.72, "count": 2262 },
+              "updateStatus": "PENDING",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 684.0
+            }
+          ],
+          "totalPrice": 5160.96,
+          "fare": { "leg_details": [] },
+          "id": "FOr9YBfaPaOO"
+        },
+        {
+          "agents": [
+            {
+              "id": "cust",
+              "name": "Trip.com",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/cust/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5320.00&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-NS42JJLi0uEWLmuO0nxcxxNlShYfKdLWxGTAqMRaypebqhwVXMnn5BAHWn6pgoAAAA|7927648005836474376|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:40&pqid=true",
+              "price": 5320.0,
+              "rating": { "value": 4.44, "count": 9945 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5320.0,
+          "fare": { "leg_details": [] },
+          "id": "HodB2r5xQGqk"
+        },
+        {
+          "agents": [
+            {
+              "id": "gtus",
+              "name": "GotoGate",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/gtus/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5347.31&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS52JJLyktFmLmuO0nxcxxNlShYfKdLWxGTAqMVcyefkEAZtuN2yEAAAA|-2468103854861028803|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:41&pqid=true",
+              "price": 5347.31,
+              "rating": { "value": 3.38, "count": 1282 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5347.31,
+          "fare": { "leg_details": [] },
+          "id": "i-9LEdu_VYNm"
+        },
+        {
+          "agents": [
+            {
+              "id": "edus",
+              "name": "eDreams",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/edus/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5429.20&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mJJTSktFmLmuO0nxcxxNlShYfKdLWxGTAqMAD9a9_YcAAAA|-589634478020485668|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:43&pqid=true",
+              "price": 5429.2,
+              "rating": { "value": 2.66, "count": 7642 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5429.2,
+          "fare": { "leg_details": [] },
+          "id": "yTde9ksyCnoM"
+        },
+        {
+          "agents": [
+            {
+              "id": "xpus",
+              "name": "Expedia",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/xpus/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|Q0GRPRYS|Q|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5491.88&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mKpKCgtFmLmuO0nxcxxNlShYfKdLWxGTAqMABvFnLIcAAAA|-6497731980054325348|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:44&pqid=true",
+              "price": 5491.88,
+              "rating": { "value": 4.71, "count": 9297 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5491.88,
+          "fare": { "leg_details": [] },
+          "id": "zzUfvwmTB1fe"
+        },
+        {
+          "agents": [
+            {
+              "id": "tlcy",
+              "name": "Travelocity",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/tlcy/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|Q0GRPRYS|Q|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5491.88&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mIpyUmuFGLmuO0nxcxxNlShYfKdLWxGTAqMAMkbMBIcAAAA|-6497731980054325348|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:40&pqid=true",
+              "price": 5491.88,
+              "rating": { "value": 1.59, "count": 853 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5491.88,
+          "fare": { "leg_details": [] },
+          "id": "4tl8t6DNv0iU"
+        },
+        {
+          "agents": [
+            {
+              "id": "orbz",
+              "name": "Orbitz",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/orbz/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|Q0GRPRYS|Q|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5491.88&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mLJL0qqEmLmuO0nxcxxNlShYfKdLWxGTAqMAFGgf2ccAAAA|-6497731980054325348|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:41&pqid=true",
+              "price": 5491.88,
+              "rating": { "value": 1.33, "count": 676 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5491.88,
+          "fare": { "leg_details": [] },
+          "id": "D2Ezjtwv1OFK"
+        },
+        {
+          "agents": [
+            {
+              "id": "arus",
+              "name": "Mytrip",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/arus/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5514.44&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS52JJLCotFmLmuO0nxcxxNlShYfKdLWxGTAqMVcyefkEAsQVQTyEAAAA|-2468103854861028803|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:41&pqid=true",
+              "price": 5514.44,
+              "rating": { "value": 3.95, "count": 5978 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5514.44,
+          "fare": { "leg_details": [] },
+          "id": "6BhrUFFVGjfl"
+        },
+        {
+          "agents": [
+            {
+              "id": "vstr",
+              "name": "Vistara",
+              "isCarrier": true,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/vstr/1/10075.10957.2024-07-17/air/airli/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|Q0GRPRYS|Q|ECOSTAND&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5761.00&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mIpKy4pEmLmuO0nxcxxNlShYfKdLWxGTAqMAJZ1uy4cAAAA|6236684742783812602|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:11:17&pqid=false",
+              "price": 5761.0,
+              "rating": { "value": 2.91, "count": 35 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 7.0
+            }
+          ],
+          "totalPrice": 5761.0,
+          "fare": { "leg_details": [] },
+          "id": "dTCRF44TapZc"
+        },
+        {
+          "agents": [
+            {
+              "id": "fnus",
+              "name": "FlightNetwork",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/fnus/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5765.13&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS52JJyystFmLmuO0nxcxxNlShYfKdLWxGTAqMVcyefkEAQMERrSEAAAA|-2468103854861028803|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:41&pqid=true",
+              "price": 5765.13,
+              "rating": { "value": 3.57, "count": 896 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5765.13,
+          "fare": { "leg_details": [] },
+          "id": "giAYYmm1ozyw"
+        },
+        {
+          "agents": [
+            {
+              "id": "skyp",
+              "name": "Kiwi.com",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/skyp/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|V0GRPRYS|V|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=5960.00&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mIpzq4sEGLmuO0nxcxxNlShYfKdLWxGTAqMADmbXdEcAAAA|-8122219942755228791|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:41&pqid=true",
+              "price": 5960.0,
+              "rating": { "value": 3.15, "count": 4649 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 5960.0,
+          "fare": { "leg_details": [] },
+          "id": "Vynv6I2qYrAT"
+        },
+        {
+          "agents": [
+            {
+              "id": "vaya",
+              "name": "BudgetAir",
+              "isCarrier": false,
+              "bookingProposition": "PBOOK",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/US/en-US/INR/vaya/1/10075.10957.2024-07-17/air/trava/flights?itinerary=flight|-31435|986|10075|2024-07-17T22:50|10957|2024-07-18T01:00|130|-|-|-&carriers=-31435&operators=-31435&passengers=1&channel=android&cabin_class=economy&fps_session_id=c428410b-6055-4126-ab47-5d4da9691245&ticket_price=6768.74&is_npt=false&is_multipart=false&client_id=skyscanner_app&request_id=d206aca9-be79-4b51-bae4-a4fcf9495d27&q_ids=H4sIAAAAAAAA_-OS4mIpS6xMFGLmuO0nxcxxNlShYfKdLWxGTAqMAPxhbwAcAAAA|-2276023518021067846|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2024-07-17T09:17:44&pqid=true",
+              "price": 6768.74,
+              "rating": { "value": 3.45, "count": 1853 },
+              "updateStatus": "CURRENT",
+              "segments": [
+                {
+                  "id": "10075-10957-2407172250-2407180100--31435",
+                  "origin": { "id": "10075", "name": "Mumbai", "displayCode": "BOM", "city": "Mumbai" },
+                  "destination": { "id": "10957", "name": "Indira Gandhi International ", "displayCode": "DEL", "city": "New Delhi" },
+                  "duration": 130,
+                  "dayChange": 1,
+                  "flightNumber": "UK986",
+                  "departure": "2024-07-17T22:50:00",
+                  "arrival": "2024-07-18T01:00:00",
+                  "marketingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "operatingCarrier": { "id": "-31435", "name": "Vistara", "displayCode": "UK", "displayCodeType": "IATA", "brandColor": "#582C4F", "logo": "https://content.skyscnr.com/272fe8ae4a67369df9b4b53bba79dc02/ai-template-vistara-thumb-1-xxxhdpi.png", "altId": "IK" },
+                  "goodToKnowItems": [{ "icon": "normal", "body": { "value": "You'll arrive the next day", "isHighlighted": true, "position": 0 }, "date": { "value": "2024-07-18T01:00:00", "isHighlighted": true, "position": 1 } }]
+                }
+              ],
+              "isDirectDBookUrl": false,
+              "quoteAge": 1.0
+            }
+          ],
+          "totalPrice": 6768.74,
+          "fare": { "leg_details": [] },
+          "id": "2PFIcCWR-PmE"
+        }
+      ],
+      "isTransferRequired": false,
+      "destinationImage": "https://content.skyscnr.com/01fd1993972b87a2ac328704fbb75478/GettyImages-474287966.jpg",
+      "operatingCarrierSafetyAttributes": [{ "carrierID": "-31435", "carrierName": "Vistara", "faceMasksCompulsory": null, "aircraftDeepCleanedDaily": null, "attendantsWearPPE": null, "cleaningPacksProvided": null, "foodServiceChanges": null, "safetyUrl": null }],
+      "flexibleTicketPolicies": []
+    },
+    "pollingCompleted": false,
+    "bookingSessionId": "c428410b-6055-4126-ab47-5d4da9691245"
+  },
+  "status": true,
+  "message": "Successful"
+}
