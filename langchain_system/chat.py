@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import requests
-import sys, os
+import sys, os, json
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 from langchain.globals import set_debug
@@ -18,10 +18,10 @@ def one_way_flight(
     Queries the API for one-way flights.
 
     Parameters:
-    - 'fromEntityId'*: 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai) | 'CCU'(kolkata) | 'HYD'(hyderabad) | 'ATQ'(amritsar) | 'SLV'(shimla) | 'PAT'(patna),
+    - 'fromEntityId' Required : 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai) | 'CCU'(kolkata) | 'HYD'(hyderabad) | 'ATQ'(amritsar) | 'SLV'(shimla) | 'PAT'(patna),
     - 'toEntityId': 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai) | 'CCU'(kolkata) | 'HYD'(hyderabad) | 'ATQ'(amritsar) | 'SLV'(shimla) | 'PAT'(patna),
     - 'departDate': 'YYYY-MM-DD',
-    - 'wholeMonthDepart': 'YYYY-MM'(Only if departDate is absent),
+    - 'wholeMonthDepart': 'YYYY-MM'(Use this or 'departDate' not Both),
 
     Returns:
     str: A string of the flight search results.
@@ -46,21 +46,48 @@ def one_way_flight(
     response_dict = response.json()
     flight_info = []
 
-    for itinerary in response_dict["data"]["itineraries"]:
-        for leg in itinerary["legs"]:
-            flight_details = {
-                "id": itinerary["id"],
-                "price": itinerary["price"]["formatted"],
-                "origin": leg["origin"]["name"],
-                "destination": leg["destination"]["name"],
-                "duration": leg["durationInMinutes"],
-                "departure": leg["departure"],
-                "arrival": leg["arrival"],
-                "carrier": leg["carriers"]["marketing"][0]["name"],
-                "flight_number": leg["segments"][0]["flightNumber"],
+    # If the user wants to search for a specific date
+    if (wholeMonthDepart is None) and (departDate is not None):
+        for itinerary in response_dict["data"]["itineraries"]:
+            for leg in itinerary["legs"]:
+                flight_details = {
+                    # "id": itinerary["id"],
+                    "price": itinerary["price"]["formatted"],
+                    "origin": leg["origin"]["name"],
+                    "destination": leg["destination"]["name"],
+                    "duration": leg["durationInMinutes"],
+                    "departure": leg["departure"],
+                    "arrival": leg["arrival"],
+                    "carrier": leg["carriers"]["marketing"][0]["name"],
+                    "flight_number": leg["segments"][0]["flightNumber"],
+                }
+                if leg["carriers"]["marketing"][0]["name"] == "IndiGo":
+                    flight_info.append(flight_details)
+        return str({"flight_info": flight_info[:], "isWholeMonthDepart": False})
+    # If the user wants to search for the whole month
+    else:
+        for flight_quote in response_dict["data"]["flightQuotes"]["results"]:
+            quote_info = {
+                # "id": flight_quote["id"],
+                "price": flight_quote["content"]["price"],
+                # "rawPrice": flight_quote["content"]["rawPrice"],
+                "direct": flight_quote["content"]["direct"],
+                "originAirport": flight_quote["content"]["outboundLeg"][
+                    "originAirport"
+                ]["name"],
+                "destinationAirport": flight_quote["content"]["outboundLeg"][
+                    "destinationAirport"
+                ]["name"],
+                "departureDate": flight_quote["content"]["outboundLeg"][
+                    "localDepartureDate"
+                ],
+                "departureDateLabel": flight_quote["content"]["outboundLeg"][
+                    "localDepartureDateLabel"
+                ],
             }
-            flight_info.append(flight_details)
-    return str(flight_info)
+            flight_info.append(quote_info)
+        return str({"flight_info": flight_info[:], "isWholeMonthDepart": True})
+    return ""
 
 
 tools = [one_way_flight]
@@ -75,9 +102,10 @@ from langchain_core.messages import HumanMessage, ToolMessage, SystemMessage
 
 messages = [
     SystemMessage(
-        """You are a helpful, cheerful, conversational flight booking chatbot. Conversationally collect the following information from the user:
-        From location*, To location, Departure date, Which month the user wants (if departure date is absent).
-        Before calling one_way_flight tool, confirm the search parameters with the user."""
+        """You are a cheerful, conversational IndiGo flight booking chatbot. Conversationally collect the following information from the user:
+        From location*, To location, Departure date, Which month the user wants (if user wants to search for the whole month).
+        Before calling one_way_flight tool, confirm the search parameters with the user.
+        Converse as if you are IndiGo's chatbot, user is only looking for IndiGo flights."""
     ),
 ]
 
@@ -100,8 +128,12 @@ if __name__ == "__main__":
                     tool_call["name"].lower()
                 ]
                 tool_msg = selected_tool.invoke(tool_call)
-                tool_msg.content = f"Summarize the following JSON output and present the flights to the user in a conversational format in 3 to 4 lines: \n{tool_msg.content}"
+                if tool_msg.content.find("'wholeMonthDepart': True") != -1:
+                    tool_msg.content = f"Summarize the following JSON output and present the flights quotes to the user in a conversational format in a concise way, ask the user to choose the date: \n{tool_msg.content}"
+                else:
+                    tool_msg.content = f"Summarize the following JSON output and present the flights to the user in a conversational format in a concise way: \n{tool_msg.content}"
                 messages.append(tool_msg)
             result = llm_with_tools.invoke(messages)
+            messages.append(result)
 
         print(f"|> {result.content}\n")
