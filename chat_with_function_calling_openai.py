@@ -25,7 +25,7 @@ def log(context, message):
 
 # Function to query the Skyscanner API
 def query(
-    fromEntityId,
+    fromEntityId=None,
     toEntityId=None,
     departDate=None,
     wholeMonthDepart=None,
