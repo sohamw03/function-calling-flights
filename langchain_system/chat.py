@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain.globals import set_debug
 
 load_dotenv()
-DEBUG = False
+DEBUG = True
 
 
 # Function to query the Skyscanner API
@@ -124,9 +124,7 @@ if __name__ == "__main__":
         result = ai_msg
         if ai_msg.tool_calls and len(ai_msg.tool_calls) > 0:
             for tool_call in ai_msg.tool_calls:
-                selected_tool = {"one_way_flight": one_way_flight}[
-                    tool_call["name"].lower()
-                ]
+                selected_tool = {"one_way_flight": one_way_flight}[ tool_call["name"].lower() ]
                 tool_msg = selected_tool.invoke(tool_call)
                 if tool_msg.content.find("'wholeMonthDepart': True") != -1:
                     tool_msg.content = f"Summarize the following JSON output and present the flights quotes to the user in a conversational format in a concise way, ask the user to choose the date: \n{tool_msg.content}"

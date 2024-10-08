@@ -77,8 +77,8 @@ def chat():
             },
             {
                 "role": "user",
-                "content": """Extract travel query parameters from the following input in this json format 
-                {'fromEntityId': 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai), 'toEntityId': 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai), 'departDate': 'YYYY-MM-DD', 'wholeMonthDepart': 'YYYY-MM' #if departDate is absent, 'locale': '', 'currency': 'INR'}: 
+                "content": """Extract travel query parameters from the following input in this json format
+                {'fromEntityId': 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai), 'toEntityId': 'BOM'(mumbai) | 'DEL'(delhi) | 'PNQ'(pune) | 'BLR'(bengaluru) | 'MAA'(chennai), 'departDate': 'YYYY-MM-DD', 'wholeMonthDepart': 'YYYY-MM' #if departDate is absent, 'locale': '', 'currency': 'INR'}:
                 """
                 + str(task),
             },
