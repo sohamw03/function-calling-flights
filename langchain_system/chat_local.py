@@ -1,15 +1,19 @@
-from dotenv import load_dotenv
 import requests
 import sys, os, json
 from langchain_core.tools import tool
-from langchain_openai import ChatOpenAI
+from langchain_ollama.chat_models import ChatOllama
 from langchain.globals import set_debug
-
+from dotenv import load_dotenv
 load_dotenv()
+
 DEBUG = True
 
+# Logger
+def log(context, message):
+    if DEBUG:
+        print(f"\n[LOG:{context}] {message}\n")
 
-# Function to query the Skyscanner API
+# Function to query the anner API
 @tool
 def one_way_flight(
     fromEntityId, toEntityId=None, departDate=None, wholeMonthDepart=None
@@ -44,8 +48,6 @@ def one_way_flight(
     if response.status_code != 200:
         return f"Error: {response.json()}"
     response_dict = response.json()
-    with open("response.json", "w") as f:
-        json.dump(response_dict, f, indent=4)
     flight_info = []
 
     # If the user wants to search for a specific date
@@ -97,22 +99,27 @@ tools = [one_way_flight]
 # ---------------------------- Chat ----------------------------
 
 set_debug(DEBUG)
-llm = ChatOpenAI(model="gpt-4-turbo")
+llm = ChatOllama(model="llama3.1")
 llm_with_tools = llm.bind_tools(tools)
 
 from langchain_core.messages import HumanMessage, ToolMessage, SystemMessage
 
 messages = [
     SystemMessage(
-        """You are a cheerful, conversational IndiGo flight booking chatbot. Conversationally collect the following information from the user:
-        From location*, To location, Departure date, Which month the user wants (if user wants to search for the whole month).
-        Before calling one_way_flight tool, confirm the search parameters with the user.
-        Converse as if you are IndiGo's chatbot, user is only looking for IndiGo flights."""
+        """You are IndiGo's friendly flight booking chatbot. Follow these rules strictly:
+
+1. For greetings or general questions, respond naturally WITHOUT using any tools
+2. Only use the one_way_flight tool when ALL these conditions are met:
+   - User has specifically asked about booking/searching flights
+   - You have collected: origin city, destination city, and either a specific date or month
+   - You have confirmed these details with the user
+
+Be casual and friendly in conversation. Start by greeting and asking how you can help with flight bookings.
+DO NOT call tools for general conversation."""
     ),
 ]
 
 if __name__ == "__main__":
-    # Start chat loop
     os.system("cls")
     while True:
         query = input(">> ")
@@ -120,18 +127,20 @@ if __name__ == "__main__":
             break
 
         messages.append(HumanMessage(content=query))
-        ai_msg = llm_with_tools.invoke(messages)
-        messages.append(ai_msg)
+        result = llm_with_tools.invoke(messages)
+        messages.append(result)
 
-        result = ai_msg
-        if ai_msg.tool_calls and len(ai_msg.tool_calls) > 0:
-            for tool_call in ai_msg.tool_calls:
-                selected_tool = {"one_way_flight": one_way_flight}[ tool_call["name"].lower() ]
+        # Only process tool calls if they exist and are actually needed
+        if hasattr(result, 'tool_calls') and result.tool_calls:
+            for tool_call in result.tool_calls:
+                selected_tool = {"one_way_flight": one_way_flight}[tool_call["name"].lower()]
                 tool_msg = selected_tool.invoke(tool_call)
-                if tool_msg.content.find("'wholeMonthDepart': True") != -1:
-                    tool_msg.content = f"Summarize the following JSON output and present the flights quotes to the user in a conversational format in a concise way, ask the user to choose the date: \n{tool_msg.content}"
+
+                if "'wholeMonthDepart': True" in tool_msg.content:
+                    tool_msg.content = "Present the flight quotes in a friendly way and ask user to pick a date:\n" + tool_msg.content
                 else:
-                    tool_msg.content = f"Summarize the following JSON output and present the flights to the user in a conversational format in a concise way: \n{tool_msg.content}"
+                    tool_msg.content = "Present the flight details in a friendly way:\n" + tool_msg.content
+
                 messages.append(tool_msg)
             result = llm_with_tools.invoke(messages)
             messages.append(result)
