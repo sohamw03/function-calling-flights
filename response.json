@@ -1,0 +1,490 @@
+{
+    "data": {
+        "flightQuotes": {
+            "buckets": [
+                {
+                    "id": "CHEAPEST_FLIGHT_QUOTES",
+                    "label": "Cheapest flights",
+                    "resultIds": [
+                        "{bl}:202503261155*D*HYD*DEL*20250505*clin*QP",
+                        "{bl}:202503261313*D*HYD*DEL*20250504*goib*QP",
+                        "{bl}:202503261255*D*HYD*DEL*20250503*goib*QP",
+                        "{bl}:202503261249*D*HYD*DEL*20250510*clin*QP",
+                        "{bl}:202503261303*D*HYD*DEL*20250512*clin*QP",
+                        "{bl}:202503261145*I*HYD*DEL*20250521*ingo*6E",
+                        "{bl}:202503261310*I*HYD*DEL*20250514*ingo*6E",
+                        "{bl}:202503260933*I*HYD*DEL*20250513*ingo*6E",
+                        "{bl}:202503260817*I*HYD*DEL*20250507*ingo*6E"
+                    ]
+                },
+                {
+                    "id": "DIRECT_FLIGHT_QUOTES",
+                    "label": "Direct flights",
+                    "resultIds": [
+                        "{bl}:202503261155*D*HYD*DEL*20250505*clin*QP",
+                        "{bl}:202503261313*D*HYD*DEL*20250504*goib*QP",
+                        "{bl}:202503261255*D*HYD*DEL*20250503*goib*QP",
+                        "{bl}:202503261249*D*HYD*DEL*20250510*clin*QP",
+                        "{bl}:202503261303*D*HYD*DEL*20250512*clin*QP",
+                        "{bl}:202503261256*D*HYD*DEL*20250509*clin*QP",
+                        "{bl}:202503261324*D*HYD*DEL*20250521*clin*QP",
+                        "{bl}:202503261218*D*HYD*DEL*20250531*clin*QP",
+                        "{bl}:202503261115*D*HYD*DEL*20250520*clin*QP"
+                    ]
+                }
+            ],
+            "results": [
+                {
+                    "id": "{bl}:202503261324*D*HYD*DEL*20250521*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,899",
+                        "rawPrice": 4899.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-21",
+                            "localDepartureDateLabel": "Wed, 21 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261249*D*HYD*DEL*20250510*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,730",
+                        "rawPrice": 4730.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-10",
+                            "localDepartureDateLabel": "Sat, 10 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261255*D*HYD*DEL*20250503*goib*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,668",
+                        "rawPrice": 4668.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-03",
+                            "localDepartureDateLabel": "Sat, 3 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261145*I*HYD*DEL*20250521*ingo*6E",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,738",
+                        "rawPrice": 4738.0,
+                        "direct": false,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-21",
+                            "localDepartureDateLabel": "Wed, 21 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261155*D*HYD*DEL*20250505*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,659",
+                        "rawPrice": 4659.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-05",
+                            "localDepartureDateLabel": "Mon, 5 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261310*I*HYD*DEL*20250514*ingo*6E",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,738",
+                        "rawPrice": 4738.0,
+                        "direct": false,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-14",
+                            "localDepartureDateLabel": "Wed, 14 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261218*D*HYD*DEL*20250531*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,899",
+                        "rawPrice": 4899.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-31",
+                            "localDepartureDateLabel": "Sat, 31 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261303*D*HYD*DEL*20250512*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,731",
+                        "rawPrice": 4731.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-12",
+                            "localDepartureDateLabel": "Mon, 12 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261313*D*HYD*DEL*20250504*goib*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,667",
+                        "rawPrice": 4667.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-04",
+                            "localDepartureDateLabel": "Sun, 4 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503260933*I*HYD*DEL*20250513*ingo*6E",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,738",
+                        "rawPrice": 4738.0,
+                        "direct": false,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-13",
+                            "localDepartureDateLabel": "Tue, 13 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503260817*I*HYD*DEL*20250507*ingo*6E",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,738",
+                        "rawPrice": 4738.0,
+                        "direct": false,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-07",
+                            "localDepartureDateLabel": "Wed, 7 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261115*D*HYD*DEL*20250520*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,899",
+                        "rawPrice": 4899.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-20",
+                            "localDepartureDateLabel": "Tue, 20 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                },
+                {
+                    "id": "{bl}:202503261256*D*HYD*DEL*20250509*clin*QP",
+                    "type": "FLIGHT_QUOTE",
+                    "content": {
+                        "price": "\u20b94,848",
+                        "rawPrice": 4848.0,
+                        "direct": true,
+                        "outboundLeg": {
+                            "originAirport": {
+                                "id": "128668073",
+                                "skyCode": "HYD",
+                                "name": "HYD",
+                                "type": "Airport"
+                            },
+                            "destinationAirport": {
+                                "id": "95673498",
+                                "skyCode": "DEL",
+                                "name": "DEL",
+                                "type": "Airport"
+                            },
+                            "localDepartureDate": "2025-05-09",
+                            "localDepartureDateLabel": "Fri, 9 May"
+                        }
+                    },
+                    "entityId": "eyJlIjoiOTU2NzM0OTgiLCJzIjoiREVMIiwidCI6bnVsbH0=",
+                    "skyId": "DEL"
+                }
+            ],
+            "months": [
+                {
+                    "year": 2025,
+                    "month": 3,
+                    "monthLabel": "Mar",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 4,
+                    "monthLabel": "Apr",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 5,
+                    "monthLabel": "May",
+                    "selected": true
+                },
+                {
+                    "year": 2025,
+                    "month": 6,
+                    "monthLabel": "Jun",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 7,
+                    "monthLabel": "Jul",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 8,
+                    "monthLabel": "Aug",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 9,
+                    "monthLabel": "Sep",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 10,
+                    "monthLabel": "Oct",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 11,
+                    "monthLabel": "Nov",
+                    "selected": false
+                },
+                {
+                    "year": 2025,
+                    "month": 12,
+                    "monthLabel": "Dec",
+                    "selected": false
+                },
+                {
+                    "year": 2026,
+                    "month": 1,
+                    "monthLabel": "Jan",
+                    "selected": false
+                },
+                {
+                    "year": 2026,
+                    "month": 2,
+                    "monthLabel": "Feb",
+                    "selected": false
+                }
+            ],
+            "context": {
+                "status": "complete",
+                "sessionId": "UNFOCUSED_SESSION_ID",
+                "totalResults": 13
+            }
+        },
+        "differentDestination": {
+            "location": {
+                "id": "29475284",
+                "skyCode": "IN",
+                "name": "India",
+                "type": "Nation"
+            },
+            "context": {
+                "status": "complete",
+                "sessionId": "UNFOCUSED_SESSION_ID",
+                "totalResults": 0
+            }
+        },
+        "context": {
+            "status": "complete",
+            "sessionId": "UNFOCUSED_SESSION_ID",
+            "totalResults": 0
+        }
+    },
+    "status": true,
+    "message": "Successful"
+}

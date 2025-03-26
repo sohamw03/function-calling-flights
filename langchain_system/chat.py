@@ -2,17 +2,18 @@ from dotenv import load_dotenv
 import requests
 import sys, os, json
 from langchain_core.tools import tool
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.globals import set_debug
 
 load_dotenv()
-DEBUG = True
+DEBUG = False
 
 
 # Function to query the Skyscanner API
 @tool
 def one_way_flight(
-    fromEntityId, toEntityId=None, departDate=None, wholeMonthDepart=None
+    fromEntityId: str, toEntityId: str=None, departDate:str=None, wholeMonthDepart:str=None
 ) -> str:
     """
     Queries the API for one-way flights.
@@ -89,7 +90,6 @@ def one_way_flight(
             }
             flight_info.append(quote_info)
         return str({"flight_info": flight_info[:], "isWholeMonthDepart": True})
-    return ""
 
 
 tools = [one_way_flight]
@@ -97,7 +97,15 @@ tools = [one_way_flight]
 # ---------------------------- Chat ----------------------------
 
 set_debug(DEBUG)
-llm = ChatOpenAI(model="gpt-4-turbo")
+llm = ChatGoogleGenerativeAI(
+    api_key=f"{os.getenv('GEMINI_API_KEY')}",
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    model="gemini-2.0-flash",
+)
+# llm = ChatOpenAI(
+#     api_key=f"{os.getenv('OPENAI_API_KEY')}"  # Replace with your OpenAI API key
+#     model="gpt-4-turbo",
+# )
 llm_with_tools = llm.bind_tools(tools)
 
 from langchain_core.messages import HumanMessage, ToolMessage, SystemMessage
@@ -107,7 +115,8 @@ messages = [
         """You are a cheerful, conversational IndiGo flight booking chatbot. Conversationally collect the following information from the user:
         From location*, To location, Departure date, Which month the user wants (if user wants to search for the whole month).
         Before calling one_way_flight tool, confirm the search parameters with the user.
-        Converse as if you are IndiGo's chatbot, user is only looking for IndiGo flights."""
+        Converse as if you are IndiGo's chatbot, user is only looking for IndiGo flights.
+        Do not ask for any additional info."""
     ),
 ]
 

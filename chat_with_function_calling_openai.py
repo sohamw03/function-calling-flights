@@ -1,11 +1,11 @@
 import sys, json, os
 import http.client
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-DEBUG = True
+DEBUG = False
 
 
 # Function to print the introductory message and read user's input
@@ -62,14 +62,15 @@ def query(
 def chat():
     task = intro()
 
-    # Initialize the OpenAI GPT-4 Turbo model
-    openai.api_key = (
-        f"{os.getenv('OPENAI_API_KEY')}"  # Replace with your OpenAI API key
+    client = OpenAI(
+        # api_key=f"{os.getenv('OPENAI_API_KEY')}"  # Replace with your OpenAI API key
+        api_key=f"{os.getenv('GEMINI_API_KEY')}",  # Replace with your Gemini API key
+        base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
     )
 
-    # Use GPT-4 Turbo to parse the user input and extract parameters
-    response = openai.chat.completions.create(
-        model="gpt-4-turbo",
+    response = client.chat.completions.create(
+        # model="gpt-4-turbo",
+        model="gemini-2.0-flash",
         messages=[
             {
                 "role": "system",
@@ -103,8 +104,9 @@ def chat():
     log("API_OUT", result[:800])
 
     # Summarize the JSON output using GPT-4 Turbo
-    summary_response = openai.chat.completions.create(
-        model="gpt-4-turbo",
+    summary_response = client.chat.completions.create(
+        # model="gpt-4-turbo",
+        model="gemini-2.0-flash",
         messages=[
             {
                 "role": "system",
